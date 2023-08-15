@@ -1,0 +1,12 @@
+site_name: My Docs
+theme: 'material'#Using material theme. There are many other options also
+
+plugins:
+  - search  # To have search functionality on the document
+  - mkdocstrings  # To generate documentation from the code docstrings
+
+
+nav: # Setting up the navigation. Te below list will be tabs on left panel
+  - index.md
+  - pagination.md # A markdown file for documenting the methods
+  
